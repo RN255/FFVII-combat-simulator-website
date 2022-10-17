@@ -4,6 +4,10 @@
   font-family: "Fira Sans", sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
 #banner {
   background-image: url(images/ffviir-zoom-midgar-city.jpg);
   background-size: cover;
@@ -16,8 +20,7 @@
 }
 
 #logo {
-  width: 25%;
-  min-width: 250px;
+  height: 25vh;
 }
 
 #mainMenu {
@@ -25,7 +28,8 @@
   border: white solid 2px;
   border-radius: 10px;
   margin: auto;
-  width: 60%;
+  margin-top: 25px;
+  width: 50vw;
   text-align: center;
 }
 
@@ -38,7 +42,7 @@ p {
 
 .button {
   text-align: center;
-  margin-top: 4%;
+  margin-top: 50px;
 }
 
 .button:hover {
@@ -188,6 +192,27 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+
+  
+  #logo {
+    width: 90vw;
+    height: auto;
+  }
+
+  .playerImg {
+    width: 90vw;
+
+  }
+
+  #game-controls {
+    /* width: 50vw; */
+
+  }
+
+  #mainMenu {
+    width: 75vw;
+  }
+
   #mainMenu h1,
   p {
     color: white;
@@ -196,7 +221,7 @@ p {
   }
 
   .playerInfoBox {
-    width: auto;
+    width: 25vw;
   }
 
   .playerInfoBox h1 {
@@ -206,4 +231,34 @@ p {
   .playerInfoBox h2 {
     font-size: 80%;
   }
+
+  #clouds-stuff {
+    display: block;
+  }
+
+  .grid a{
+    width: 5vw;
+    font-size: 10px;
+    padding: 10px 25px 10px 10px;  
+  }
+
+  .grid {
+    margin-top: 10px;
+  }
+
+ 
+
+
+
+
+
+
+
+  audio {
+    /* display: none; */
+  }
+
+  
+
+
 }
